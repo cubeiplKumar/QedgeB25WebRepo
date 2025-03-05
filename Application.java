@@ -35,6 +35,19 @@ public class KeyboardIntegerReader {
           }
 	}
      }
+	 #feature202 changes by Rahul on October 2024 on Payment Gateway module
+	 public static void main(String[] args) {
+        // Creating an object of MyClass
+        MyClass myObject = new MyClass();
+
+        // Accessing the public field
+        System.out.println("Public Field: " + myObject.publicField);
+
+        // Calling the public method
+        myObject.publicMethod();
+    }
+}
+#end of feature202
 
   System.out.println ("You entered the integer: " + num);
  }
