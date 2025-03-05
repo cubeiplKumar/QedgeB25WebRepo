@@ -35,6 +35,7 @@ public class KeyboardIntegerReader {
           }
 	}
      }
+
 	 #feature202 changes by Rahul on October 2024 on Payment Gateway module
 	 public static void main(String[] args) {
         // Creating an object of MyClass
@@ -48,6 +49,22 @@ public class KeyboardIntegerReader {
     }
 }
 #end of feature202
+
+	 #feature201 changes by Vivek on October 2024 on Reports Module
+	  public static void main(String[] args) {
+    
+    int num1 = 25;
+    int num2 = 15;
+
+    // create an object of Main
+    Main obj = new Main();
+    // calling method
+    int result = obj.addNumbers(num1, num2);
+    System.out.println("Sum is: " + result);
+  }
+}
+#end of feature201
+
 
   System.out.println ("You entered the integer: " + num);
  }
