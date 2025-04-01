@@ -15,4 +15,10 @@ public static void sampleMethod(int a, int b) throws ArithmeticException{
 SIP Investements
 Payment Gateways with Other Banks
 Sync.
+#JENKINS CI JOB @EVERY 5 MINUTS DEMO
+// reads all data from input.txt
+      sourceFile.read(array);
 
+      // writes all data to newFile
+      destFile.write(array);
+      System.out.println("The input.txt file is copied to newFile.");
